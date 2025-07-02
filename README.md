@@ -1,2 +1,2 @@
 # SCT_WD_4
-TO-DO List Web Application
+I have developed a responsive To-Do List web application using HTML, CSS, and JavaScript .This application is designed to work efficiently on both desktop and mobile devices, allowing users to manage tasks with ease and flexibility.I used HTML to build the structural layout of the interface, CSS to style the app with a clean and modern aesthetic, and JavaScript to implement the interactive features. Key functionalities include adding new tasks with a title, date, and time, saving them using localStorage, marking tasks as complete or incomplete, deleting tasks, and toggling the visibility of the task list. I also incorporated smooth animations and visual feedback to enhance user engagement and usability.
