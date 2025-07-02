@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Stylish To-Do App</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body onclick="hideMessage()">
+
+  <div id="overlayMessage">Welcome to TO-DO List App</div>
+
+  <div class="welcome">✨ Welcome to the Stylish To-Do List App ✨</div>
+
+  <div class="card">
+    <h2>Add New Task</h2>
+    <div class="input-group">
+      <label for="taskInput">Task</label>
+      <input type="text" id="taskInput" placeholder="Enter your task">
+    </div>
+    <div class="input-group">
+      <label for="taskDate">📅 Date</label>
+      <input type="date" id="taskDate">
+    </div>
+    <div class="input-group">
+      <label for="taskTime">⏰ Time</label>
+      <input type="time" id="taskTime">
+    </div>
+    <div class="input-group">
+      <button onclick="saveTask()">Save Task</button>
+    </div>
+  </div>
+
+  <div class="toggle-btn">
+    <button onclick="toggleTasks()">📋 Toggle Saved Tasks</button>
+  </div>
+
+  <div class="card hidden" id="savedTasksCard">
+    <h2>Saved Tasks</h2>
+    <div id="taskList"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
